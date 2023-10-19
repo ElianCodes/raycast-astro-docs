@@ -5,5 +5,8 @@
       "destination": "https://github.com/ElianCodes/raycast-astro-docs"
     }
   ],
-  "rewrites": [{ "source": "/api", "destination": "/api/index" }]
+  "rewrites": [
+    { "source": "/api", "destination": "/api/index" },
+    { "source": "/api/:lang", "destination": "/api/index?lang=:lang" }
+  ]
 }

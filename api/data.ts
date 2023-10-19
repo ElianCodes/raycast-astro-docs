@@ -1,8 +1,6 @@
 import { DocumentationEntry } from "./types";
 
-const lang = "en";
-
-export const data: DocumentationEntry[] = [
+export const getData = (lang: string): DocumentationEntry[] => [
   /* Getting Started */
   { title: "Getting Started", url: `https://docs.astro.build/${lang}/getting-started/`, keywords: ["stort", "sturt"] },
   { title: "Installation", url: `https://docs.astro.build/${lang}/install/auto/` },
