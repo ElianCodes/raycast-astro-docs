@@ -5,5 +5,5 @@ export const config = {
 }
 
 export default async function handler(request: Request) {
-  return new Response(JSON.stringify(data), { status: 200 });
+  return new Response(JSON.stringify(data), { status: 200, headers: { 'Content-Type': 'application/json' } });
 }
