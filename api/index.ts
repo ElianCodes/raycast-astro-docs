@@ -5,5 +5,5 @@ export const config = {
 }
 
 export default async function handler(request: Request) {
-  return data;
+  return new Response(data.toString(), { status: 200 });
 }
