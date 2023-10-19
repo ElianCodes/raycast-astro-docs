@@ -5,5 +5,5 @@ export const config = {
 }
 
 export default async function handler(request: Request) {
-  return new Response(JSON.parse(data.map(entry => entry.toString()).toString()), { status: 200 });
+  return new Response(JSON.stringify(data), { status: 200 });
 }
