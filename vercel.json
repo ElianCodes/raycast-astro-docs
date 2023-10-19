@@ -4,5 +4,6 @@
       "source": "/",
       "destination": "https://github.com/ElianCodes/raycast-astro-docs"
     }
-  ]
+  ],
+  "rewrites": [{ "source": "/:path*", "destination": "/api/index" }]
 }
