@@ -1,0 +1,18 @@
+{
+  "name": "raycast-astro-docs",
+  "version": "0.1.0",
+  "description": "The API to run Astro Toolkit via Raycast",
+  "scripts": {
+    "format": "biome format ./ --write",
+    "lint": "biome lint ./"
+  },
+  "author": {
+    "email": "hello@elian.codes",
+    "name": "Elian Van Cutsem",
+    "url": "https://www.elian.codes"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@biomejs/biome": "1.3.1"
+  }
+}

@@ -1,12 +1,15 @@
 {
-  "redirects": [
-    {
-      "source": "/",
-      "destination": "https://github.com/ElianCodes/raycast-astro-docs"
-    }
-  ],
-  "rewrites": [
-    { "source": "/api", "destination": "/api/index" },
-    { "source": "/api/:lang", "destination": "/api/index?lang=:lang" }
-  ]
+	"redirects": [
+		{
+			"source": "/",
+			"destination": "https://github.com/ElianCodes/raycast-astro-docs"
+		}
+	],
+	"rewrites": [
+		{ "source": "/api", "destination": "/api/docs" },
+		{ "source": "/api/docs", "destination": "/api/docs" },
+		{ "source": "/api/houston", "destination": "/api/houston" },
+		{ "source": "/api/:lang", "destination": "/api/docs?lang=:lang" },
+		{ "source": "/api/docs/:lang", "destination": "/api/docs?lang=:lang" }
+	]
 }
