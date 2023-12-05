@@ -6,6 +6,7 @@ export const getData = (lang: string): DocumentationEntry[] => [
   { title: "Installation", url: `https://docs.astro.build/${lang}/install/auto/` },
   { title: "Editor Setup", url: `https://docs.astro.build/${lang}/editor-setup/` },
   /* Upgrade Guides */
+  { title: "Upgrade to Astro v4", url: `https://docs.astro.build/${lang}/guides/upgrade-to/v4/` },
   { title: "Upgrade to Astro v3", url: `https://docs.astro.build/${lang}/guides/upgrade-to/v3/` },
   { title: "Upgrade to Astro v2", url: `https://docs.astro.build/${lang}/guides/upgrade-to/v2/` },
   /* Core Concepts */
@@ -65,7 +66,7 @@ export const getData = (lang: string): DocumentationEntry[] => [
   { title: "Integration API Reference", url: `https://docs.astro.build/${lang}/reference/integrations-reference/` },
   { title: "Adapter API Reference", url: `https://docs.astro.build/${lang}/reference/adapter-reference/` },
   { title: "Image Service API Reference", url: `https://docs.astro.build/${lang}/reference/image-service-reference/` },
-  { title: "Dev Overlay Plugin API Reference", url: `https://docs.astro.build/${lang}/reference/dev-overlay-plugin-reference/` },
+  { title: "Dev Toolbar App API Reference", url: `https://docs.astro.build/${lang}/reference/dev-toolbar-app-reference/` },
   { title: "Template Directives Reference", url: `https://docs.astro.build/${lang}/reference/directives-reference/` },
   { title: "CLI Reference", url: `https://docs.astro.build/${lang}/reference/cli-reference/` },
   { title: "Error Reference", url: `https://docs.astro.build/${lang}/reference/error-reference/` },
