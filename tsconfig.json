@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
     "allowJs": true,
+    "outDir": "public",
+    "target": "ES2015"
   },
 }
