@@ -7,6 +7,7 @@
   ],
   "rewrites": [
     { "source": "/api", "destination": "/api/index" },
-    { "source": "/api/:lang", "destination": "/api/index?lang=:lang" }
+    { "source": "/api/:lang", "destination": "/api/index?lang=:lang" },
+    { "source": "/test", "destination": "/api/test" }
   ]
 }
